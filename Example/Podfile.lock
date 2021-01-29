@@ -1,0 +1,16 @@
+PODS:
+  - KKTheme (0.1.0)
+
+DEPENDENCIES:
+  - KKTheme (from `../`)
+
+EXTERNAL SOURCES:
+  KKTheme:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKTheme: 9dbb4e5793a1c3c1c9f0af6dd2dcd3f07798dba4
+
+PODFILE CHECKSUM: beb8d19c8bcd211dac71b578cf04f4b122bcaf4e
+
+COCOAPODS: 1.9.3

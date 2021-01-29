@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KKTheme_Example' do
+  pod 'KKTheme', :path => '../'
+
+  target 'KKTheme_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KKTheme'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KKTheme.'
+  s.summary          = '换肤'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+换肤
                        DESC
 
-  s.homepage         = 'https://github.com/yangshuyuan/KKTheme'
+  s.homepage         = 'https://github.com/DecembeGrirl/pod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yangshuyuan' => 'yangshuyuan@kkworld.com' }
-  s.source           = { :git => 'https://github.com/yangshuyuan/KKTheme.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DecembeGrirl/pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KKTheme/Classes/**/*'
+  s.source_files = 'KKTheme/Classes/*'
   
   # s.resource_bundles = {
   #   'KKTheme' => ['KKTheme/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit', 'Foundation'
+   s.dependency 'AFNetworking', '~> 2.3'
 end
